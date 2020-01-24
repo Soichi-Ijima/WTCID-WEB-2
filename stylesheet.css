@@ -8,6 +8,7 @@ ul{
 
 body{
     margin:0;
+    background-image:url("images/patten_1.png");
 }
 
 /*ここから各部分のスタイル*/
@@ -31,15 +32,54 @@ header h1{
     padding:0;
 }
 
-.header-menu li{
+.header-list{
     width:25%;
-    padding:15px 30px;
+    border-right:1px solid lightgray;
+    border-left:1px solid lightgray;
     text-align:center;
+}
+
+.header-list a{
+    width:100%;
+    padding:15px 0;
+    display:inline-block;
+    transition:all 0.3s ease;
+    color:black;
+    text-decoration:none;
+    border-radius:10px;
+}
+
+.header-list a:hover{
+    font-size:20px;
+    background-color:rgba(200,200,200,0.5);
 }
 
 /*--main部分--*/
 .main{
     margin:0 20px;
+}
+
+#to-top{
+    position:fixed;
+    bottom:20px;
+    right:20px;
+    font-size:77%;
+}
+#to-top a {
+    background-color:rgba(100,100,100,0.8);
+    text-decoration: none;
+    color: #fff;
+    width: 100px;
+    padding: 30px 0;
+    text-align: center;
+    display: block;
+    border-radius: 5px;
+    cursor:pointer;
+    transition:all 0.2s ease;
+}
+#to-top a:hover {
+    text-decoration: none;
+    background-color: #999999;
 }
 
 .main-slider{
@@ -58,11 +98,7 @@ header h1{
     margin:auto;
     display:grid;
     grid-template-columns:1fr 1fr 1fr;
-    grid-gap:20px;
-}
-
-.section-child{
-
+    grid-gap:40px;
 }
 
 .section-title{
@@ -70,17 +106,45 @@ header h1{
     white-space:nowrap;
 }
 
-.article-1{
+.section-child{
+    transition:all 1s ease;
+}
+.hide{
+    opacity:0;
+    top:20px;
+}
+.show{
+    opacity:1;
+}
+
+.section-child img{
+    width:100%;
+}
+
+#article-1{
     grid-column:1/3;
     grid-row:1/3;
+
 }
-.article-2{
+#article-2{
     grid-column:3;
     grid-row:1;
+
 }
-.article-3{
+#article-3{
     grid-column:3;
     grid-row:2;
+
+}
+#article-4{
+    grid-column:1/4;
+    grid-row:3;
+
+}
+#article-5{
+    grid-column:1/4;
+    grid-row:4;
+
 }
 
 /*--footer部分--*/
@@ -92,7 +156,8 @@ footer{
 }
 
 .footer-logo span{
-    /*border:2px solid black;*/
+    border-bottom:2px solid black;
+    padding-bottom:0;
 }
 
 .footer-list{
@@ -105,8 +170,16 @@ footer{
 
 .footer-list-child ul{
     display:block;
+    padding:0;
 }
 
 .footer-list-child li{
     text-align:center;
+    padding:10px;
+}
+
+.copy-right p{
+    text-align:center;
+    color:lightgray;
+    margin-top:40px;
 }
