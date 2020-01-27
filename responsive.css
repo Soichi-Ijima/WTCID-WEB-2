@@ -1,12 +1,13 @@
 @media(max-width:670px){
-    .section-child h2{
-        font-size:48px;
+    .header-menu ul{
+        width:100%;
     }
-    .section-child p{
+
+    .section-child h2{
         font-size:32px;
     }
-    .section-parent{
-        width:100%;
+    .section-child p{
+        font-size:24px;
     }
     #article-1{
         grid-column:1/4;
