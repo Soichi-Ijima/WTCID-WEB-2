@@ -3,6 +3,15 @@
         width:100%;
     }
 
+    .main-slider{
+        margin:10px auto;
+        width:95%;
+    }
+
+    .section-parent{
+        padding:10px;
+    }
+
     .section-child h2{
         font-size:32px;
     }
