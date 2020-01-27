@@ -171,6 +171,7 @@ footer{
 .footer-list-child li{
     text-align:center;
     padding:10px;
+    white-space:nowrap;
 }
 
 .copy-right p{
