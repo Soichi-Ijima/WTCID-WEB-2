@@ -6,7 +6,7 @@
     .header-list{
         font-size:16px;
     }
-    .header-list:hover{
+    .header-list a:hover{
         font-size:100%;
     }
     header{
