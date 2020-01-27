@@ -1,4 +1,4 @@
-@media(max-width:670px){
+@media(max-width:300px){
     .header-menu ul{
         width:100%;
     }
@@ -11,6 +11,7 @@
     .section-parent{
         width:100%;
         padding:10px;
+        display:block;
     }
 
     .section-child h2{
@@ -19,7 +20,7 @@
     .section-child p{
         font-size:24px;
     }
-    #article-1{
+    /*#article-1{
         grid-column:1/4;
         grid-row:1;
     }
@@ -38,5 +39,5 @@
     #article-5{
         grid-column:1/4;
         grid-row:5;
-    }
+    }*/
 }
