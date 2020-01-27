@@ -14,6 +14,7 @@
     }
     .main{
         margin:0 10px;
+        padding-bottom:60px;
     }
     .main-slider{
         margin-top:60px;
@@ -28,17 +29,19 @@
         padding:0;
         display:block;
     }
-
+    .section-child{
+        padding-bottom:20px;
+    }
     .section-child h2{
         font-size:32px;
     }
     .section-child p{
         font-size:16px;
     }
-    .container{
-        padding-bottom:60px;
-    }
 
+    footer{
+        height:345px;
+    }
     .footer-list{
         width:100%;
     }
