@@ -85,6 +85,7 @@ header h1{
 .main-slider{
     margin:100px auto;
     width:80%;
+    padding:0;
 }
 
 .main-slider img{
