@@ -1,6 +1,8 @@
 @media(max-width:900px){
-    .header-list{
+    .header-menu ul{
         width:100%;
+    }
+    .header-list{
         font-size:12px;
     }
     header{
@@ -14,10 +16,10 @@
     }
     .main-slider{
         margin-top:30px;
-        margin-bottom:10px;
+        margin-bottom:0;
         margin-left:auto;
         margin-right:auto;
-        width:95%;
+        width:100%;
     }
 
     .section-parent{
