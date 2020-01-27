@@ -1,7 +1,7 @@
 @media(max-width:900px){
-    .header-menu ul{
+    .header-list{
         width:100%;
-        font-size:16px;
+        font-size:12px;
     }
 
     .main-slider{
@@ -44,4 +44,8 @@
         grid-column:1/4;
         grid-row:5;
     }*/
+
+    .footer-list{
+        width:100%;
+    }
 }
